@@ -1,0 +1,30 @@
+.model-wrapper .modal-content {
+    /* background: linear-gradient(to right, rgb(125, 8, 82), #02114e); */
+    background: linear-gradient(to right, rgb(222, 16, 153), #01115c);
+    color: #fff !important;
+    padding: 20px;
+    border-radius: 5px 100px;
+
+}
+
+.model-header {
+    color: #01115c;
+}
+
+.model-section label {
+    color: #01115c;
+}
+
+.model-wrapper Button {
+    background-color: #01115c;
+    background: 010c3a;
+    border-color: #02114e !important;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.model-wrapper Button:hover {
+    background-color: #01115c;
+    color: #fff;
+}

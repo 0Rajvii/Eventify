@@ -1,0 +1,85 @@
+footer {
+  background-color: #04081c;
+  color: #fff;
+}
+
+.footer-wrap {
+  padding: 75px 0;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.lead {
+  font-size: 15px;
+  opacity: 0.75;
+  line-height: 1.75;
+  margin-right: 20px;
+  color: #fff !important;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links .social-icon {
+  max-width: 30px;
+  height: auto;
+}
+
+.footer-links-section h4 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.footer-links-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links-section li {
+  padding: 6px 0;
+}
+
+.footer-links-section a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.5;
+  letter-spacing: -0.32px;
+}
+
+.footer-links-section a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.footer-links-section .working-hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links-section .working-hours span {
+  margin-top: 4px;
+}
+
+.sub-footer {
+  padding: 30px;
+  background: #040c0f;
+  opacity: 0.4;
+  color: #fff;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .footer-wrap .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

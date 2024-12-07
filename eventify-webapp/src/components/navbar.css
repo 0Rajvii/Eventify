@@ -1,0 +1,43 @@
+.navbar-bg {
+    background-color: #04081c;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f1f1f1;
+    opacity: 1;
+}
+
+.navbar-logo {
+    color: #fff !important;
+  
+}
+
+.navbar-btn-link {
+    background: linear-gradient(to right, rgb(222, 16, 153), #01115c);
+    border-radius: 50px 50px;
+}
+
+.navbar-button-link {
+    background: linear-gradient(to right, rgb(222, 16, 153), #01115c);
+    border-radius: 5px 15px;
+
+
+}
+
+.navbar-button-link .navbar-link {
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+        max-width: 100%;
+    }
+}

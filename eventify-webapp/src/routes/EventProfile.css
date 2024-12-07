@@ -1,0 +1,18 @@
+.single-event-section {}
+
+.single-event-section h2.gradient-text {
+    background: linear-gradient(to right, rgb(222, 16, 153), #01115c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.single-event-section p.lead {
+    margin-top: 20px;
+    color: #01115c !important;
+    font-size: 20px;
+    font-weight: 600;
+}
